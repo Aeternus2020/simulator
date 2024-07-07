@@ -1,9 +1,15 @@
-import styles from './page.module.css';
+import { Header } from '@/components/header/Header';
+import { Main } from '../components/main/Main';
+import Theme from '@/Theme';
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Simulator</h1>
-    </main>
+    <>
+    <Theme>
+        <Header />
+        <Main />
+      </Theme>
+    </>
   );
 }
