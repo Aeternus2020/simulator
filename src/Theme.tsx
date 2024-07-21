@@ -45,6 +45,8 @@ const theme = {
 		title: 'Manpore',
 		text: 'Merriweather',
 	},
+	fontSize: 14,
+	fontWeight: '400',
 	breakpoints: {
 		xs: 320,
 		sm: 480,
